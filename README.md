@@ -5,7 +5,7 @@
 ## 使用前提
 
 1. 已安装 npm、node.js
-2. 已安装安装模块 axios，安装命令：
+2. 已安装模块 axios，安装命令：
 
 ```js
 npm install axios

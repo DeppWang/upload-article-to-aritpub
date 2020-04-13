@@ -36,14 +36,14 @@ const deleteHead = (content) => {
 
 // 判断此时上传的文章是否已上传, true 已经上传， false 没有上传
 const judgeArticleUpdated = async (aritcleId, filename) => {
-  const url = "http://192.144.169.17:3000/articles/" + aritcleId;
+  const url = "yourHostIp:port/articles/" + aritcleId;
   const resp = await axios.get(url);
   // console.log(resp);
   return resp.data.data.title == filename;
 }
 
 const addArticle = (data, aritcleIdFile) => {
-  const url = "http://192.144.169.17:3000/articles";
+  const url = "yourHostIp:port/articles";
   axios.put(url, data)
     .then(function (resp) {
       console.log("新增文章：" + resp.data.data.title);

@@ -14,7 +14,7 @@ npm install axios
 ## 使用方式
 
 1. 下载 `artipub.js` 和 `aritcleid.md`
-2. 在 artipub.js 文件中设置 `yourHostIp` 为你的后端 ip+端口
+2. 在 artipub.js 文件中设置 `yourHostIp:port` 为你的后端 ip+端口
 3. 在 artipub.js 文件中设置你的文章路径，默认为 artipub.js 所在路径下的 `source/_posts/`，可改为绝对路径
 4. 修改后，运行 `node artipub.js`
 

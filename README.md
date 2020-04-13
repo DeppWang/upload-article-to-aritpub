@@ -1,9 +1,3 @@
-撸了个上传本地指定文件夹最近修改文章到 [ArtiPub](https://github.com/crawlab-team/artipub) 的脚本，需要请自取：
-
-https://gist.github.com/DeppWang/69559dc0ed44e96d80ab12992d6d0ca0
-
-没啥技术含量，大佬请轻喷
-
 ## 实现功能
 
 - 上传 `source/posts` 最近修改文章到 ArtiPub，如果文章已存在，更新文章，如果文章已删除，提示已删除
